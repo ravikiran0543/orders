@@ -1,0 +1,7 @@
+<mvc:View controllerName="ord.orders.controller.Empty"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="emptyPage" title="Empty View">
+
+    </Page>
+</mvc:View>

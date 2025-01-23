@@ -1,0 +1,17 @@
+<mvc:View controllerName="ord.orders.controller.View3"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+    xmlns="sap.m">
+    <Page id="formPage" title="Form" showNavButton="true" navButtonPress="backtoDetailView">
+        <f:SimpleForm id="sfId">
+            <Label text="Product ID"></Label>
+            <Input value="{/ProductID}"></Input>
+            <Label text="ProductName"></Label>
+            <Input value="{/ProductName}"></Input>
+            <Label text="SupplierID"></Label>
+            <Input value="{/SupplierID}"></Input>
+            <Label text="Quantity Per Unit"></Label>
+            <Input value="{/QuantityPerUnit}"></Input>
+        </f:SimpleForm>
+    </Page>
+</mvc:View>

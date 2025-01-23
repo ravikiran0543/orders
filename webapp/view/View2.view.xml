@@ -1,0 +1,29 @@
+<mvc:View controllerName="ord.orders.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="detailPage" title="Detail Page" showNavButton="true" navButtonPress="backToEmpty" navButtonTooltip="Back to Empty Page" >
+        <Table id="_IDGenTable" itemPress="onItemPress"  mode= "SingleSelectMaster"
+                        selectionChange ="onTableSelect">
+            <columns>
+                <Column id="_IDGenColumn1" >
+                    <Text id="_IDGenText" text="Order ID"></Text>
+                </Column>
+                <Column id="_IDGenColumn2" >
+                    <Text id="_IDGenText1" text="Product ID"></Text>
+                </Column>
+                <Column id="_IDGenColumn3" >
+                    <Text id="_IDGenText2" text="Unit Price"></Text>
+                </Column>
+                <Column id="_IDGenColumn4" >
+                    <Text id="_IDGenText3" text="Quantity"></Text>
+                </Column>
+                <Column id="_IDGenColumn5" >
+                    <Text id="_IDGenText4" text="Discount"></Text>
+                </Column>
+            </columns>
+            <items>
+             
+            </items>
+        </Table>
+    </Page>
+</mvc:View>

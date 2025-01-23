@@ -1,0 +1,11 @@
+<mvc:View controllerName="ord.orders.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="masterPage" title="Master Page">
+        <List id="idList" items="{/Orders}" selectionChange="onItemPress" mode="SingleSelectMaster">
+            <items>
+                <StandardListItem id="_IDGenStandardListItem" title="{OrderID}" description="{ShipName}"></StandardListItem>
+            </items>
+        </List>
+    </Page>
+</mvc:View>
